@@ -4,9 +4,9 @@ To use the current repository
 
 ```
 cd ~
-rm ~/.bashrc ~/.bash/bashrc
-rm ~/.bash_aliases ~/.bash/bash_aliases
-git clone git://github.com/sinsunsan/bashrc.git ~/.bash
+rm ~/.bashrc
+rm ~/.bash_aliases
+git clone git@github.com:sinsunsan/bashrc.git ~/.bash
 ln -s ~/.bash/bashrc ~/.bashrc
 ln -s ~/.bash/bash_aliases ~/.bash_aliases
 ```

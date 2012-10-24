@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#search for files excluding directory named files (not to lose time searching in binary files)
+grep -rn --exclude-dir=files "$1" *
+ 

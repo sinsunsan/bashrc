@@ -77,6 +77,13 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+# Add common Path the the $PATH variable 
+# To add more path seperate each path by : symbol
+PATH=$PATH:~/.bash/script
+export PATH
+
+
+
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like

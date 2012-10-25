@@ -27,7 +27,7 @@ alias vi='vim'
 alias grep='grep --color'
 
 alias update='sudo apt-get update && sudo apt-get upgrade'
-
+alias sdrush='~/.bash/tools/drush/drush'
 # A password generator 
 genpasswd() {
 	local l=$1

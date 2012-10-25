@@ -79,7 +79,7 @@ fi
 
 # Add common Path the the $PATH variable 
 # To add more path seperate each path by : symbol
-PATH=$PATH:~/.bash/script
+PATH=$PATH:~/.bash/script:~/.bash/script/tools/drush/drush
 export PATH
 
 

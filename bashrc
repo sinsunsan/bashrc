@@ -105,3 +105,6 @@ if [ -f ~/.bash/bashrc.local ]; then
     source ~/.bash/bashrc.local
 fi
 
+if [ -f ~/.bash/bash_profile ]; then
+    source ~/.bash/bash_profile
+fi
